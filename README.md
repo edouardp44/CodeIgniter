@@ -17,5 +17,10 @@
 ![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-21-46.png)
 
 ## Utilisation de js : 
+        Pour la pagination mise en place dans le footer.php a la suite d'une balise <script>
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-54-40.png)
+
+## Rendu final 
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-55-36.png)
       
   
