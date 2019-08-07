@@ -7,7 +7,7 @@ class Pages extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->model('news_model');
-		$this->load->helper('url_helper');
+		$this->load->helper('url');
 	}
 
 	public function view($page = 'home')
@@ -17,7 +17,7 @@ class Pages extends CI_Controller
 			show_404();
 		}
 		$data['title'] = ucfirst($page);
-		$data['test'] = $this->news_model->select_all();
+		$data['bdd'] = $this->news_model->select_all();
 		$this->load->view('templates/header', $data);
 		$this->load->view('pages/'.$page, $data);
 		$this->load->view('templates/footer', $data);

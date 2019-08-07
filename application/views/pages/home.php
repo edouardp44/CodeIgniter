@@ -12,7 +12,7 @@
 		<th scope="col">Date de publication</th>
 	</tr>
 	</thead>
-	<?php foreach ($test as $news_item): ?>
+	<?php foreach ($bdd as $news_item): ?>
 		<tbody>
 		<tr>
 			<th scope="row"><?php echo $news_item['title']; ?></th>
