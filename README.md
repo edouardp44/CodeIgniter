@@ -1,24 +1,32 @@
 # CodeIgniter
 
-## Controller Pages :
-    Construct qui fait appel aux model "new_model".
-    function view qui utilise la méthode "select_all".
-    utilisation des views "header","home","footer".
-![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-11-22.png)
+## Controller Api :
+    Construct qui fait appel à la base de donnée.
+    Je n'ai pas réussit a utiliser le model pour fair appel a la bdd.
+    Function get_desc qui récupère les données et les transform en json. 
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-09%2016-50-41.png)
 
-## Model New_model :
-      Construct qui fait appel a la bdd.
-      Function select_all qui séléction tous les element de la bdd de la table ('test').
-      et qui ranges les élément de la plus récente à la plus ancienne
-![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-21-23.png)
+## Controller Api_list :
+        Controller qui gère les views
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-09%2016-50-45.png)
 
-## Vue Home :
-      Boucle foreach pour afficher les plusieur élément de la table
-![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-21-46.png)
+## Vue Index :
+      Appel du fichier index.js et du CDN jquery
+      Mise en place des div avec id "loop" et "result" qui sont relier au function js
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-09%2016-51-53.png)
 
-## Utilisation de js : 
-        Pour la pagination mise en place dans le footer.php a la suite d'une balise <script>
-![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-54-40.png)
+## Utilisation de js fetch API : 
+    Fetch Api et affiche les plusieur element dans des <ul> <li>
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-09%2016-52-19.png)
+
+## Pagination avex Jquery : 
+    Mise en place :
+    -de la limite d'élément par pages
+    -compteur de pages
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-09%2016-53-01.png)
+
+## Bouton next et prévious 
+![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-09%2016-53-08.png)
 
 ## Rendu final 
 ![](https://github.com/edouardp44/CodeIgniter/blob/master/images/Screenshot%20from%202019-08-06%2015-55-36.png)
