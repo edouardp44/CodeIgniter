@@ -12,6 +12,6 @@ class News_model extends CI_Model
 	{
 		$this->db->order_by("publication desc");
 		$query = $this->db->get('test');
-		return $query->result_array();
+		return $query;
 	}
 }

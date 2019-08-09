@@ -1,5 +1,5 @@
 'use strict';
-fetch('/index.php/Api/get')
+fetch('/index.php/Api/get_desc')
 	.then((res) => {
 		return res.json()
 	})
@@ -9,7 +9,7 @@ fetch('/index.php/Api/get')
 			const {id, title, budget,description, publication } = user
 			result +=
 				`
-					<ul class="list-group">
+					<ul class="list-group mt-3">
 						<li class="list-group-item"> ID: ${id} </li>
 						<li class="list-group-item">  Title : ${title}</li>
 						<li class="list-group-item"> Budget : ${budget} </li>

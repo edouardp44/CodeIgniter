@@ -11,7 +11,7 @@ class Api extends CI_Controller
 
 	}
 
-	public function get()
+	public function get_desc()
 	{
 		$query = $this->db->query('select * from test order by publication desc');
 		return print_r(json_encode($query->result()));
